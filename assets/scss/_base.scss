@@ -192,3 +192,21 @@ h6 a {
     color: #fff;
   }
 }
+
+
+.btn-grd{
+  display: inline-block;
+  text-decoration: none;
+  border: 0;
+  background-image: linear-gradient(to left, #7b42ec, #0eb3fd);
+  padding: 11px 35px;
+  border-radius: 50px;
+  color: #fff;
+  transition: all .2s ease-in;
+  font-size: 16px;
+  font-weight: 600;
+  &:hover,&:focus{
+    background-image: linear-gradient(to right, #7b42ec, #0eb3fd);
+    color: #fff;
+  }
+}
