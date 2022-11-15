@@ -1,0 +1,144 @@
+/*--------------------------------------------------------------
+# verify-hero
+--------------------------------------------------------------*/
+
+.verify-hero{
+padding-top: 160px;
+padding-bottom: 70px;
+@media only screen and (max-width: 1199px) {
+ padding-top: 110px;
+}
+@media only screen and (max-width: 767px) {
+ padding-top: 90px;
+}
+.verify-inner{
+  position: relative;
+  .left-badge{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    height: 30px;
+    z-index: -1;
+    @media only screen and (max-width: 767px) {
+     height: 20px;
+     left: 0;
+    }
+  }
+  .right-badge{
+    position: absolute;
+    top: 0;
+    right: 10%;
+    height: 44px;
+    z-index: -1;
+    @media only screen and (max-width: 767px) {
+      height: 24px;
+      right: 0;
+     }
+  }
+}
+.ver-text{
+  text-align: center;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 45px;
+  @media only screen and (max-width: 767px) {
+   margin-bottom: 35px;
+  }
+  h1{
+    font-size: 58px;
+    margin-bottom: 16px;
+    @media only screen and (max-width: 1199px) {
+     font-size: 48px;
+    }
+    @media only screen and (max-width: 767px) {
+     font-size: 38px;
+     margin-bottom: 12px;
+    }
+    @media only screen and (max-width: 482px) {
+      font-size: 34px;
+      margin-bottom: 12px;
+     }
+  }
+  p{
+    color: #6464B2;
+    font-size: 20px;
+    font-weight: 500;
+    @media only screen and (max-width: 1199px) {
+      font-size: 18px;
+     }
+     @media only screen and (max-width: 767px) {
+      font-size: 16px;
+     }
+  }
+}
+
+.ver-single{
+  background-color: #111142;
+  padding: 30px 30px;
+  border-radius: 40px;
+  border: 2px solid transparent;
+  height: 100%;
+  @media only screen and (max-width: 1199px) {
+   padding: 25px 25px;
+  }
+  .ver-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  h4{
+    font-size: 24px;
+    @media only screen and (max-width: 1199px) {
+     font-size: 22px;
+    }
+  }
+  .ver-icon{
+    height: 40px;
+    @media only screen and (max-width: 1199px) {
+     height: 35px;
+    }
+  }
+  p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+  }
+  transition: all .2s ease-in;
+  &:hover{
+    background-color: #090924;
+    border: 2px solid #6969ff;
+  }
+}
+
+position: relative;
+.right-corner{
+  position: absolute;
+  top: 35%;
+  right: -10px;
+  height: 33px;
+  z-index: -1;
+  @media only screen and (max-width: 767px) {
+   height: 30px;
+  }
+}
+}
+
+/*--------------------------------------------------------------
+# screens
+--------------------------------------------------------------*/
+.screens{
+  padding-top: 10px;
+  padding-bottom: 60px;
+  text-align: center;
+  @media only screen and (max-width: 767px) {
+   padding-bottom: 40px;
+  }
+  .screen-single{
+    transition: all .3s ease-in;
+    &:hover{
+      transform: translateY(-3px);
+    }
+  }
+}

@@ -92,6 +92,8 @@ h6 a {
   width: 35px;
   height: 35px;
   background-color: #7B8AFF;
+  background-image: -webkit-gradient(linear, right top, left top, from(#7b42ec), to(#0eb3fd));
+  background-image: linear-gradient(to left, #7b42ec, #0eb3fd);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,8 +103,6 @@ h6 a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 16px;
-  color: #fff;
   border-radius: 5px;
   position: fixed;
   bottom: 30px;
@@ -112,6 +112,11 @@ h6 a {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   display: none;
+}
+.scroll-top img {
+  height: 20px;
+  -webkit-transform: scaleY(-1);
+          transform: scaleY(-1);
 }
 .scroll-top:hover {
   color: #fff;
@@ -687,4 +692,185 @@ h6 a {
   .press .press-img {
     width: 110%;
   }
+}
+
+/*--------------------------------------------------------------
+# verify-hero
+--------------------------------------------------------------*/
+.verify-hero {
+  padding-top: 160px;
+  padding-bottom: 70px;
+  position: relative;
+}
+@media only screen and (max-width: 1199px) {
+  .verify-hero {
+    padding-top: 110px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .verify-hero {
+    padding-top: 90px;
+  }
+}
+.verify-hero .verify-inner {
+  position: relative;
+}
+.verify-hero .verify-inner .left-badge {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  height: 30px;
+  z-index: -1;
+}
+@media only screen and (max-width: 767px) {
+  .verify-hero .verify-inner .left-badge {
+    height: 20px;
+    left: 0;
+  }
+}
+.verify-hero .verify-inner .right-badge {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  height: 44px;
+  z-index: -1;
+}
+@media only screen and (max-width: 767px) {
+  .verify-hero .verify-inner .right-badge {
+    height: 24px;
+    right: 0;
+  }
+}
+.verify-hero .ver-text {
+  text-align: center;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 45px;
+}
+@media only screen and (max-width: 767px) {
+  .verify-hero .ver-text {
+    margin-bottom: 35px;
+  }
+}
+.verify-hero .ver-text h1 {
+  font-size: 58px;
+  margin-bottom: 16px;
+}
+@media only screen and (max-width: 1199px) {
+  .verify-hero .ver-text h1 {
+    font-size: 48px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .verify-hero .ver-text h1 {
+    font-size: 38px;
+    margin-bottom: 12px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .verify-hero .ver-text h1 {
+    font-size: 34px;
+    margin-bottom: 12px;
+  }
+}
+.verify-hero .ver-text p {
+  color: #6464B2;
+  font-size: 20px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 1199px) {
+  .verify-hero .ver-text p {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .verify-hero .ver-text p {
+    font-size: 16px;
+  }
+}
+.verify-hero .ver-single {
+  background-color: #111142;
+  padding: 30px 30px;
+  border-radius: 40px;
+  border: 2px solid transparent;
+  height: 100%;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+@media only screen and (max-width: 1199px) {
+  .verify-hero .ver-single {
+    padding: 25px 25px;
+  }
+}
+.verify-hero .ver-single .ver-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 16px;
+}
+.verify-hero .ver-single h4 {
+  font-size: 24px;
+}
+@media only screen and (max-width: 1199px) {
+  .verify-hero .ver-single h4 {
+    font-size: 22px;
+  }
+}
+.verify-hero .ver-single .ver-icon {
+  height: 40px;
+}
+@media only screen and (max-width: 1199px) {
+  .verify-hero .ver-single .ver-icon {
+    height: 35px;
+  }
+}
+.verify-hero .ver-single p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+.verify-hero .ver-single:hover {
+  background-color: #090924;
+  border: 2px solid #6969ff;
+}
+.verify-hero .right-corner {
+  position: absolute;
+  top: 35%;
+  right: -10px;
+  height: 33px;
+  z-index: -1;
+}
+@media only screen and (max-width: 767px) {
+  .verify-hero .right-corner {
+    height: 30px;
+  }
+}
+
+/*--------------------------------------------------------------
+# screens
+--------------------------------------------------------------*/
+.screens {
+  padding-top: 10px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .screens {
+    padding-bottom: 40px;
+  }
+}
+.screens .screen-single {
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.screens .screen-single:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
 }
