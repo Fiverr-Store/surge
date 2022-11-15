@@ -152,7 +152,9 @@ h6 a {
   position: absolute;
   inset: 8px;
   margin: auto;
-  background: #15164f;
+  background: #1a1c63;
+  -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
   border-radius: 50%;
 }
 .page-loader .loader:before {
@@ -161,6 +163,8 @@ h6 a {
   inset: 0px;
   margin: auto;
   background: #0eb3fd;
+  background-image: -webkit-gradient(linear, right top, left top, from(#7b42ec), to(#0eb3fd));
+  background-image: linear-gradient(to left, #7b42ec, #0eb3fd);
   -webkit-animation: crlMugLoader 2s linear infinite alternate;
           animation: crlMugLoader 2s linear infinite alternate;
 }
