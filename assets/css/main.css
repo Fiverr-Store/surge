@@ -878,3 +878,174 @@ h6 a {
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
 }
+
+/*--------------------------------------------------------------
+# grow-hero
+--------------------------------------------------------------*/
+.grow-hero {
+  padding-top: 160px;
+  padding-bottom: 70px;
+}
+@media only screen and (max-width: 1199px) {
+  .grow-hero {
+    padding-top: 110px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .grow-hero {
+    padding-top: 90px;
+  }
+}
+.grow-hero .grow-text {
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 767px) {
+  .grow-hero .grow-text {
+    margin-bottom: 23px;
+  }
+}
+.grow-hero .grow-text h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 1199px) {
+  .grow-hero .grow-text h1 {
+    font-size: 48px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .grow-hero .grow-text h1 {
+    font-size: 38px;
+    margin-bottom: 12px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .grow-hero .grow-text h1 {
+    font-size: 34px;
+    margin-bottom: 12px;
+  }
+}
+.grow-hero .grow-text p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #6464b2;
+}
+@media only screen and (max-width: 1199px) {
+  .grow-hero .grow-text p {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .grow-hero .grow-text p {
+    font-size: 16px;
+  }
+}
+.grow-hero .left-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+.grow-hero .left-flex h4 {
+  font-size: 60px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 1199px) {
+  .grow-hero .left-flex h4 {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .grow-hero .left-flex h4 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .grow-hero .left-flex h4 {
+    font-size: 35px;
+  }
+}
+.grow-hero .left-flex img {
+  margin-top: 18px;
+  height: 38px;
+  margin-left: 30px;
+}
+@media only screen and (max-width: 767px) {
+  .grow-hero .left-flex img {
+    height: 28px;
+    margin-left: 20px;
+    margin-top: 9px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .grow-hero .left-flex img {
+    height: 22px;
+  }
+}
+.grow-hero .left-flex p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+}
+@media only screen and (max-width: 767px) {
+  .grow-hero .left-flex p {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .grow-hero .left-flex p {
+    font-size: 17px;
+  }
+}
+.grow-hero .right-flex {
+  text-align: center;
+}
+.grow-hero .right-flex h4 {
+  font-size: 60px;
+  font-weight: 700;
+  background-image: -webkit-gradient(linear, right top, left top, from(#7b42ec), to(#0eb3fd));
+  background-image: linear-gradient(to left, #7b42ec, #0eb3fd);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+@media only screen and (max-width: 1199px) {
+  .grow-hero .right-flex h4 {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .grow-hero .right-flex h4 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .grow-hero .right-flex h4 {
+    font-size: 35px;
+  }
+}
+.grow-hero .right-flex p {
+  font-size: 24px;
+  font-weight: 500;
+  background-image: -webkit-gradient(linear, right top, left top, from(#7b42ec), to(#0eb3fd));
+  background-image: linear-gradient(to left, #7b42ec, #0eb3fd);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+@media only screen and (max-width: 767px) {
+  .grow-hero .right-flex p {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .grow-hero .right-flex p {
+    font-size: 17px;
+  }
+}

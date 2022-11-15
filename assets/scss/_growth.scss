@@ -1,0 +1,126 @@
+/*--------------------------------------------------------------
+# grow-hero
+--------------------------------------------------------------*/
+.grow-hero {
+	padding-top: 160px;
+	padding-bottom: 70px;
+	@media only screen and (max-width: 1199px) {
+		padding-top: 110px;
+	}
+	@media only screen and (max-width: 767px) {
+		padding-top: 90px;
+	}
+	.grow-text {
+		margin-bottom: 30px;
+    @media only screen and (max-width: 767px) {
+     margin-bottom: 23px;
+    }
+		h1 {
+			font-size: 55px;
+			margin-bottom: 20px;
+      @media only screen and (max-width: 1199px) {
+        font-size: 48px;
+       }
+       @media only screen and (max-width: 767px) {
+        font-size: 38px;
+        margin-bottom: 12px;
+       }
+       @media only screen and (max-width: 482px) {
+         font-size: 34px;
+         margin-bottom: 12px;
+        }
+		}
+		p {
+			font-size: 20px;
+			font-weight: 500;
+			color: #6464b2;
+      @media only screen and (max-width: 1199px) {
+        font-size: 18px;
+       }
+       @media only screen and (max-width: 767px) {
+        font-size: 16px;
+       }
+		}
+	}
+	.left-flex {
+		display: flex;
+		text-align: center;
+		h4 {
+			font-size: 60px;
+			font-weight: 500;
+      @media only screen and (max-width: 1199px) {
+       font-size: 50px;
+      }
+      @media only screen and (max-width: 767px) {
+        font-size: 40px;
+       }
+       @media only screen and (max-width: 482px) {
+        font-size: 35px;
+       }
+		}
+		img {
+			margin-top: 18px;
+			height: 38px;
+			margin-left: 30px;
+      @media only screen and (max-width: 767px) {
+       height: 28px;
+       margin-left: 20px;
+       margin-top: 9px;
+      }
+      @media only screen and (max-width: 482px) {
+       height: 22px;
+       }
+		}
+		p {
+			font-size: 24px;
+			font-weight: 500;
+			color: #fff;
+      @media only screen and (max-width: 767px) {
+       font-size: 20px;
+      }
+      @media only screen and (max-width: 482px) {
+        font-size: 17px;
+       }
+		}
+	}
+	.right-flex {
+		text-align: center;
+		h4 {
+			font-size: 60px;
+			font-weight: 700;
+			background-image: linear-gradient(to left, #7b42ec, #0eb3fd);
+			background-size: 100%;
+			background-clip: text;
+			-webkit-background-clip: text;
+			-moz-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			-moz-text-fill-color: transparent;
+      @media only screen and (max-width: 1199px) {
+        font-size: 50px;
+       }
+       @media only screen and (max-width: 767px) {
+        font-size: 40px;
+       }
+       @media only screen and (max-width: 482px) {
+        font-size: 35px;
+       }
+		}
+		p {
+			font-size: 24px;
+			font-weight: 500;
+			background-image: linear-gradient(to left, #7b42ec, #0eb3fd);
+			background-size: 100%;
+			background-clip: text;
+			-webkit-background-clip: text;
+			-moz-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			-moz-text-fill-color: transparent;
+      @media only screen and (max-width: 767px) {
+       font-size: 20px;
+      }
+      @media only screen and (max-width: 482px) {
+       font-size: 17px;
+      }
+		}
+	}
+}
