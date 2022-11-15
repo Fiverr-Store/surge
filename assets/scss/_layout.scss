@@ -3,6 +3,7 @@
 --------------------------------------------------------------*/
 
 .verify {
+  position: relative;
 	padding: 40px 0px;
 	@media only screen and (max-width: 767px) {
 		padding: 20px 0px;
@@ -53,6 +54,39 @@
 			}
 		}
 	}
+
+.left-corner{
+  position: absolute;
+  top: 9%;
+  left: -10px;
+  height: 60px;
+  z-index: -1;
+}
+
+.right-corner{
+  position: absolute;
+  top: 2%;
+  right: -10px;
+  height: 40px;
+  z-index: -1;
+}
+.bottm-corner{
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+  height: 60px;
+  z-index: -1;
+}
+
+.bottm-corner-r{
+  position: absolute;
+  bottom: 4%;
+  right: 10%;
+  height: 40px;
+  z-index: -1;
+}
+
+
 }
 
 /*--------------------------------------------------------------

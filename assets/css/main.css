@@ -569,6 +569,7 @@ h6 a {
 # verify
 --------------------------------------------------------------*/
 .verify {
+  position: relative;
   padding: 40px 0px;
 }
 @media only screen and (max-width: 767px) {
@@ -637,6 +638,34 @@ h6 a {
     font-size: 17px;
     margin-bottom: 22px;
   }
+}
+.verify .left-corner {
+  position: absolute;
+  top: 9%;
+  left: -10px;
+  height: 60px;
+  z-index: -1;
+}
+.verify .right-corner {
+  position: absolute;
+  top: 2%;
+  right: -10px;
+  height: 40px;
+  z-index: -1;
+}
+.verify .bottm-corner {
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+  height: 60px;
+  z-index: -1;
+}
+.verify .bottm-corner-r {
+  position: absolute;
+  bottom: 4%;
+  right: 10%;
+  height: 40px;
+  z-index: -1;
 }
 
 /*--------------------------------------------------------------
@@ -1294,4 +1323,120 @@ h6 a {
   color: #7B8AFF;
   font-size: 15px;
   font-weight: 600;
+}
+
+/*--------------------------------------------------------------
+# misc-hero
+--------------------------------------------------------------*/
+.misc-hero {
+  padding-top: 160px;
+  padding-bottom: 70px;
+}
+@media only screen and (max-width: 1199px) {
+  .misc-hero {
+    padding-top: 110px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .misc-hero {
+    padding-top: 90px;
+    padding-bottom: 50px;
+  }
+}
+.misc-hero .mis-text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.misc-hero .mis-text h1 {
+  font-size: 55px;
+  margin-bottom: 16px;
+}
+@media only screen and (max-width: 1199px) {
+  .misc-hero .mis-text h1 {
+    font-size: 48px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .misc-hero .mis-text h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .misc-hero .mis-text h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+}
+.misc-hero .mis-text p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #6464b2;
+}
+@media only screen and (max-width: 1199px) {
+  .misc-hero .mis-text p {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .misc-hero .mis-text p {
+    font-size: 16px;
+  }
+}
+.misc-hero .mis-single {
+  background-color: #111142;
+  text-align: center;
+  border-radius: 33px;
+  padding: 30px 30px;
+  height: 100%;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+@media only screen and (max-width: 1299px) {
+  .misc-hero .mis-single {
+    padding: 25px 25px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .misc-hero .mis-single {
+    padding: 25px 25px;
+  }
+}
+.misc-hero .mis-single .mis-icon {
+  height: 55px;
+  margin-bottom: 16px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+@media only screen and (max-width: 767px) {
+  .misc-hero .mis-single .mis-icon {
+    height: 46px;
+    margin-bottom: 10px;
+  }
+}
+.misc-hero .mis-single h4 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+@media only screen and (max-width: 767px) {
+  .misc-hero .mis-single h4 {
+    font-size: 22px;
+  }
+}
+.misc-hero .mis-single p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+@media only screen and (max-width: 767px) {
+  .misc-hero .mis-single p {
+    font-size: 15px;
+  }
+}
+.misc-hero .mis-single:hover {
+  background-color: #325FFF;
+}
+.misc-hero .mis-single:hover .mis-icon {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
 }

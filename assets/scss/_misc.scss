@@ -1,0 +1,90 @@
+/*--------------------------------------------------------------
+# misc-hero
+--------------------------------------------------------------*/
+
+.misc-hero {
+	padding-top: 160px;
+	padding-bottom: 70px;
+	@media only screen and (max-width: 1199px) {
+		padding-top: 110px;
+	}
+	@media only screen and (max-width: 767px) {
+		padding-top: 90px;
+		padding-bottom: 50px;
+	}
+	.mis-text {
+		text-align: center;
+		margin-bottom: 50px;
+		h1 {
+			font-size: 55px;
+			margin-bottom: 16px;
+			@media only screen and (max-width: 1199px) {
+				font-size: 48px;
+			}
+			@media only screen and (max-width: 767px) {
+				font-size: 38px;
+				margin-bottom: 10px;
+			}
+			@media only screen and (max-width: 482px) {
+				font-size: 34px;
+				margin-bottom: 10px;
+			}
+		}
+		p {
+			font-size: 20px;
+			font-weight: 500;
+			color: #6464b2;
+			@media only screen and (max-width: 1199px) {
+				font-size: 18px;
+			}
+			@media only screen and (max-width: 767px) {
+				font-size: 16px;
+			}
+		}
+	}
+
+	.mis-single {
+		background-color: #111142;
+		text-align: center;
+    border-radius: 33px;
+    padding: 30px 30px;
+    height: 100%;
+    @media only screen and (max-width: 1299px) {
+     padding: 25px 25px;
+    }
+    @media only screen and (max-width: 767px) {
+     padding: 25px 25px;
+    }
+		.mis-icon {
+			height: 55px;
+      margin-bottom: 16px;
+      transition: all .2s ease-in;
+      @media only screen and (max-width: 767px) {
+       height: 46px;
+       margin-bottom: 10px;
+      }
+		}
+    h4{
+      font-size: 24px;
+      margin-bottom: 16px;
+      @media only screen and (max-width: 767px) {
+       font-size: 22px;
+      }
+    }
+    p{
+      font-size: 16px;
+      font-weight: 500;
+      color: #fff;
+      @media only screen and (max-width: 767px) {
+       font-size: 15px;
+      }
+    }
+    transition: all .2s ease-in;
+    &:hover{
+      background-color: #325FFF;
+      .mis-icon{
+        filter: brightness(0) invert(1);
+      }
+    }
+	}
+}
